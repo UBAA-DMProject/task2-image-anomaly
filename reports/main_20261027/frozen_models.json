@@ -1,0 +1,126 @@
+{
+  "hazelnut": {
+    "global_hog_knn": {
+      "threshold": 6.289066882133484,
+      "selected_C": null,
+      "fit_count": 160,
+      "validation_count": 50,
+      "validation_metrics": {
+        "auroc": 0.675,
+        "ap": 0.4274467169144261,
+        "auprc_trapezoid": 0.37716624597904796,
+        "precision": 0.6,
+        "recall": 0.3,
+        "f1": 0.4,
+        "tn": 38,
+        "fp": 2,
+        "fn": 7,
+        "tp": 3
+      },
+      "fit_and_calibrate_seconds": 0.057486500000777596,
+      "model_sha256": "d55e0548e4667d5459115bb7fd3ff83046dd236bbb1978231dbe1f247228774b"
+    },
+    "local_hog_knn": {
+      "threshold": 0.36199894795301873,
+      "selected_C": null,
+      "fit_count": 160,
+      "validation_count": 50,
+      "validation_metrics": {
+        "auroc": 0.9924999999999999,
+        "ap": 0.9697979797979797,
+        "auprc_trapezoid": 0.9680934343434343,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091,
+        "tn": 38,
+        "fp": 2,
+        "fn": 0,
+        "tp": 10
+      },
+      "fit_and_calibrate_seconds": 0.31181529999958,
+      "model_sha256": "2a94c7227736dc6f92978f6a8ef53b01db06a3f40c3bba38b0ea0fecede8e493"
+    },
+    "hog_linear_svm": {
+      "threshold": 1.2795305847985685,
+      "selected_C": 0.01,
+      "fit_count": 200,
+      "validation_count": 50,
+      "validation_metrics": {
+        "auroc": 0.6825000000000001,
+        "ap": 0.4683868429648463,
+        "auprc_trapezoid": 0.41974110428115785,
+        "precision": 0.7142857142857143,
+        "recall": 0.5,
+        "f1": 0.5882352941176471,
+        "tn": 38,
+        "fp": 2,
+        "fn": 5,
+        "tp": 5
+      },
+      "fit_and_calibrate_seconds": 0.5999104000002262,
+      "model_sha256": "58f68a32ebf51ae95083bfa0ff941c842fc818ebc903cff873ee7a2072b8fcf3"
+    }
+  },
+  "zipper": {
+    "global_hog_knn": {
+      "threshold": 4.472612285614013,
+      "selected_C": null,
+      "fit_count": 160,
+      "validation_count": 50,
+      "validation_metrics": {
+        "auroc": 0.76,
+        "ap": 0.5004445937694019,
+        "auprc_trapezoid": 0.47325126597762357,
+        "precision": 0.6,
+        "recall": 0.3,
+        "f1": 0.4,
+        "tn": 38,
+        "fp": 2,
+        "fn": 7,
+        "tp": 3
+      },
+      "fit_and_calibrate_seconds": 0.04123909999998432,
+      "model_sha256": "955bbbcba1125e785e0456565dac2fa4e42b576584639ba150d6ea4bc957cb14"
+    },
+    "local_hog_knn": {
+      "threshold": 0.3579834127920514,
+      "selected_C": null,
+      "fit_count": 160,
+      "validation_count": 50,
+      "validation_metrics": {
+        "auroc": 0.7725,
+        "ap": 0.5280009364449592,
+        "auprc_trapezoid": 0.5088673252216895,
+        "precision": 0.5,
+        "recall": 0.2,
+        "f1": 0.2857142857142857,
+        "tn": 38,
+        "fp": 2,
+        "fn": 8,
+        "tp": 2
+      },
+      "fit_and_calibrate_seconds": 0.3026519000004555,
+      "model_sha256": "11c49d7db05e686ec550a54e0eb1e9e3e557cca548666eee2c2fb21be98ab172"
+    },
+    "hog_linear_svm": {
+      "threshold": 0.0683167093020984,
+      "selected_C": 0.01,
+      "fit_count": 200,
+      "validation_count": 50,
+      "validation_metrics": {
+        "auroc": 0.845,
+        "ap": 0.6054261914556032,
+        "auprc_trapezoid": 0.5783830398187984,
+        "precision": 0.5294117647058824,
+        "recall": 0.9,
+        "f1": 0.6666666666666666,
+        "tn": 32,
+        "fp": 8,
+        "fn": 1,
+        "tp": 9
+      },
+      "fit_and_calibrate_seconds": 0.4999982999997883,
+      "model_sha256": "1f6434ecd38f5779029c93c6071ccccaa267829f44d47eb2ea947210b6476a14"
+    }
+  }
+}

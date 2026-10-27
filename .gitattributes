@@ -1,0 +1,9 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.pdf binary
+*.png binary
+# Preserve report evidence byte-for-byte because its SHA-256 values are recorded.
+/reports/** -text

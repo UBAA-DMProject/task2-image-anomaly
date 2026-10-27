@@ -1,0 +1,52 @@
+{
+  "images": 602,
+  "counts_without_test_labels": {
+    "hazelnut/fit/0": 160,
+    "hazelnut/fit/1": 40,
+    "hazelnut/test/None": 55,
+    "hazelnut/validation/0": 40,
+    "hazelnut/validation/1": 10,
+    "zipper/fit/0": 160,
+    "zipper/fit/1": 40,
+    "zipper/test/None": 47,
+    "zipper/validation/0": 40,
+    "zipper/validation/1": 10
+  },
+  "source_modes": {
+    "RGB": 305,
+    "L": 297
+  },
+  "source_sizes": {
+    "1024x1024": 602
+  },
+  "duplicates": {
+    "sha256": {
+      "duplicate_groups": 0,
+      "extra_rows": 0,
+      "cross_fit_validation_groups": 0,
+      "cross_train_test_groups": 0,
+      "groups": []
+    },
+    "rgb_pixel_sha256": {
+      "duplicate_groups": 0,
+      "extra_rows": 0,
+      "cross_fit_validation_groups": 0,
+      "cross_train_test_groups": 0,
+      "groups": []
+    }
+  },
+  "features": {
+    "key": "e7e0a02ae670228894dad50a25ed6d43f4ee257f6e961e70eaecec3e830991c4",
+    "reused": false,
+    "global_shape": [
+      602,
+      8100
+    ],
+    "local_shape": [
+      602,
+      15,
+      15,
+      38
+    ]
+  }
+}

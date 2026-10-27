@@ -1,0 +1,14 @@
+{
+  "experiment_dir": "C:\\code\\code\\project\\DM_2026_Workspace\\task2-image-anomaly\\results\\main_20261027",
+  "report_pdf_sha256": "2e208e49d8e6479b2390d0e8f3b1c4f0b3af3483ebaf18e8b6da4dfa66a514be",
+  "verification_status": "passed",
+  "primary_model": "local_hog_knn",
+  "source_summary_sha256": "abaf292f98e199a62eeb082be1e5d983c3edd4304a619eeb3493c38f5277c635",
+  "builder_sha256": "9cedf5b23afb98e6b624ef4711f9f495190a443c053e2a754f29327481bd07d9",
+  "scope": "Required task 2 only; no optional extension",
+  "pdf_pages": 6,
+  "all_pages_visually_reviewed": true,
+  "course_material_files_rechecked_unchanged": 1233,
+  "materials_review": "materials_review.md",
+  "materials_audit_sha256": "8ace1e0a609dedda548555767e9c9cac660081591463e3c07d2edbd73b0fff5e"
+}

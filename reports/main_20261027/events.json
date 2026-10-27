@@ -1,0 +1,30 @@
+[
+  {
+    "event": "protocol_registered",
+    "time": "2026-10-27T21:37:25+08:00",
+    "elapsed_seconds": 0.003717300000062096,
+    "protocol_sha256": "b5e8e6e26fd53bc90e17eb6c933e2e6653e40910b9f7a7d8aa75cb4459e59b3e"
+  },
+  {
+    "event": "all_models_and_thresholds_frozen",
+    "time": "2026-10-27T21:37:38+08:00",
+    "elapsed_seconds": 12.48522580000008,
+    "manifest_sha256": "43760b0fcc9d0a6e50ede2fffa353422bd33f1badd9f158a190f778526c3ceb1"
+  },
+  {
+    "event": "unlabelled_test_predictions_saved",
+    "time": "2026-10-27T21:37:39+08:00",
+    "elapsed_seconds": 13.148199999999633
+  },
+  {
+    "event": "test_labels_loaded_for_evaluation",
+    "time": "2026-10-27T21:37:39+08:00",
+    "elapsed_seconds": 13.149520699999812,
+    "labels_sha256": "873bd60f038138e42a441ac0246212858a4dc7dc24842caf7c051e17ad6e488e"
+  },
+  {
+    "event": "evaluation_and_plots_complete",
+    "time": "2026-10-27T21:37:45+08:00",
+    "elapsed_seconds": 19.649437500000204
+  }
+]

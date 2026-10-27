@@ -1,0 +1,17 @@
+﻿category,case_type,method,path,score,threshold,predicted_label,true_label
+hazelnut,FP,local_hog_knn,hazelnut/test/001.png,0.3802075918106435,0.36199894795301873,1,0
+hazelnut,FP,local_hog_knn,hazelnut/test/011.png,0.37430528286286163,0.36199894795301873,1,0
+hazelnut,FN,local_hog_knn,hazelnut/test/036.png,0.34759566671271735,0.36199894795301873,0,1
+hazelnut,FN,local_hog_knn,hazelnut/test/029.png,0.36177243818660987,0.36199894795301873,0,1
+hazelnut,TP,local_hog_knn,hazelnut/test/004.png,0.3760331878960885,0.36199894795301873,1,1
+hazelnut,TP,local_hog_knn,hazelnut/test/005.png,0.4160339755974755,0.36199894795301873,1,1
+hazelnut,TN,local_hog_knn,hazelnut/test/002.png,0.3050551640422903,0.36199894795301873,0,0
+hazelnut,TN,local_hog_knn,hazelnut/test/003.png,0.3280052434357836,0.36199894795301873,0,0
+zipper,FP,local_hog_knn,zipper/test/013.png,0.5697423880169691,0.3579834127920514,1,0
+zipper,FP,local_hog_knn,zipper/test/026.png,0.4421583784584775,0.3579834127920514,1,0
+zipper,FN,local_hog_knn,zipper/test/033.png,0.20226461538278317,0.3579834127920514,0,1
+zipper,FN,local_hog_knn,zipper/test/007.png,0.2048590617291994,0.3579834127920514,0,1
+zipper,TP,local_hog_knn,zipper/test/009.png,0.4707044759494508,0.3579834127920514,1,1
+zipper,TP,local_hog_knn,zipper/test/042.png,0.3756570424358178,0.3579834127920514,1,1
+zipper,TN,local_hog_knn,zipper/test/001.png,0.2430939020677538,0.3579834127920514,0,0
+zipper,TN,local_hog_knn,zipper/test/002.png,0.20978480005105116,0.3579834127920514,0,0

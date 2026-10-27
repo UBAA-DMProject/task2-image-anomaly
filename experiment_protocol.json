@@ -1,0 +1,29 @@
+{
+  "protocol_version": 1,
+  "task": "Image-level anomaly detection; required task 2 only",
+  "categories": ["hazelnut", "zipper"],
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "image_size": 256,
+  "color_mode": "L",
+  "interpolation": "PIL LANCZOS",
+  "hog": {
+    "orientations": 9,
+    "pixels_per_cell": [16, 16],
+    "cells_per_block": [2, 2],
+    "block_norm": "L2-Hys",
+    "transform_sqrt": false
+  },
+  "normal_threshold_quantile": 0.95,
+  "quantile_method": "linear",
+  "decision_rule": "score > threshold",
+  "models": {
+    "global_hog_knn": {"neighbors": 5, "training": "normal_fit_only", "scaling": "none; HOG block normalization retained"},
+    "local_hog_knn": {"neighbors": 3, "spatial_radius": 1, "top_fraction": 0.05, "training": "normal_fit_only", "descriptor": "36 HOG values plus local intensity mean and standard deviation"},
+    "hog_linear_svm": {"C_candidates": [0.01, 0.1, 1.0, 10.0], "class_weight": "balanced", "selection": "max validation AP; tie: smaller C", "threshold": "max validation F1; tie: recall then precision then larger threshold", "training": "normal_and_anomalous_fit_samples", "scaler": "StandardScaler fitted on fit samples only"}
+  },
+  "test_policy": "Freeze and serialize every model and threshold before reading test labels or calculating any test metric. No test-based model selection or refitting.",
+  "comparison_policy": "Report all three preregistered methods for both categories. Local HOG kNN is the prespecified main novelty detector; do not rename a method as main based on test results.",
+  "duplicates": "Preserve supplied records, inventory file and decoded-pixel hashes, report all overlaps; do not claim patient/object independence without identifiers.",
+  "metrics": ["auroc", "ap", "auprc_trapezoid", "precision", "recall", "f1", "tn", "fp", "fn", "tp"]
+}

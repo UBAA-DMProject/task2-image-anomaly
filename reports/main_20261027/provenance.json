@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-10-27T21:37:25+08:00",
+  "data_root": "C:\\code\\code\\project\\DM_2026_Dataset\\Image_Anomaly_Detection\\Image_Anomaly_Detection",
+  "protocol_sha256": "b5e8e6e26fd53bc90e17eb6c933e2e6653e40910b9f7a7d8aa75cb4459e59b3e",
+  "code_sha256": {
+    "plot_results.py": "ee87c6745334bccba385f197f3a31e40c33fe39325ab1902a4eb91695bda5492",
+    "predict.py": "36fb21722f239f0c3aa66bd0a1a9ac49c88d172f1f1a895f91f85bcf08c72152",
+    "run_experiment.py": "815a5f92d4fa727d90d2e20992a9d0e405eecef52e4308c456bfedeaa2f4c38d",
+    "test_experiment.py": "4527011def98541486764589f6cd9ab07743ab5124e1d42d2d12b22b19fe471d"
+  },
+  "output_dir": "C:\\code\\code\\project\\DM_2026_Workspace\\task2-image-anomaly\\results\\main_20261027"
+}

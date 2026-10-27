@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checked_models": [
+    "hazelnut/global_hog_knn",
+    "hazelnut/local_hog_knn",
+    "hazelnut/hog_linear_svm",
+    "zipper/global_hog_knn",
+    "zipper/local_hog_knn",
+    "zipper/hog_linear_svm"
+  ],
+  "verified_predictions": 306,
+  "redecoded_test_images": 102,
+  "max_reloaded_score_error": 0.0,
+  "original_image_hashes_verified": 602,
+  "phase_order_verified": true,
+  "model_hashes_verified": true,
+  "source_code_hashes_verified": true,
+  "svm_scaler_fit_scope_verified": true,
+  "normal_quantiles_verified": true,
+  "independent_metric_calculation": "pairwise AUROC; grouped-ranking AP; count-based classification; trapezoidal PR"
+}
